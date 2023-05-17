@@ -4,6 +4,7 @@ body{
 
 .principal{
     background-color: #ccc;
+    padding: 20px;
 }
 
 #banner{
@@ -31,3 +32,23 @@ em strong{
 .beneficios {
     background-color: white;
 }
+
+
+h2{
+    color: black ; ; text-align: center;
+}
+
+.imagensbeneficios{
+    width: 50%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin-right: 15px;
+}
+
+
+
+
