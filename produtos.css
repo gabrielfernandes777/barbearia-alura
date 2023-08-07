@@ -1,6 +1,6 @@
 header {
-	background: #161616;
-	padding: 20px; 
+	background: #ccc;
+	padding: 20px 0;
 }
 
 .caixa{
@@ -22,24 +22,21 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover{
-	color: #bd0000;
+	color: #c78c19;
 	text-decoration: underline;
 }
-
-
 
 .produtos{
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px;
-		
+	/*padding: 50px;*/	
 }
 .produtos li{
 	display: inline-block;
@@ -60,33 +57,17 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #bd0000;
-	color: #bd0000;
-	text-decoration: underline;
-}
-
-.produtos li:hover h2{
-	font-size: 35px;
+	border-color: #c78c19;
+	
 }
 
 .produtos li:active{
 	border-color: #088c19;
 }
 
+
 .produtos-preco{
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px;
 }
-footer{
-	background-color:rgb(112, 112, 112) ;
-	text-align: center;
-	background: url(bg.jpg);
-	padding: 40px 0;
-}  
-
-footer p{
-	color: white;
-	font-size: 12px;
-}
-

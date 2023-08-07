@@ -1,6 +1,6 @@
 header {
-	background: #161616;
-	padding: 20px; 
+	background: #ccc;
+	padding: 20px 0;
 }
 
 .caixa{
@@ -22,24 +22,21 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover{
-	color: #bd0000;
+	color: #c78c19;
 	text-decoration: underline;
 }
-
-
 
 .produtos{
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px;
-		
 }
 .produtos li{
 	display: inline-block;
@@ -60,30 +57,31 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #bd0000;
-	color: #bd0000;
-	text-decoration: underline;
+	border-color: #c78c19;
+	
 }
 
 .produtos li:hover h2{
-	font-size: 35px;
+	font-size: 40px;
 }
 
 .produtos li:active{
 	border-color: #088c19;
 }
 
+
 .produtos-preco{
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px;
 }
+
 footer{
-	background-color:rgb(112, 112, 112) ;
+	background-color: #ccc;
 	text-align: center;
 	background: url(bg.jpg);
 	padding: 40px 0;
-}  
+}
 
 footer p{
 	color: white;
@@ -100,22 +98,26 @@ form{
 }
 
 input{
-	border: 2px solid  black;
+	
 	border-radius: 5px;
+
 }
-input:hover{
-	border: 2px solid #FF0000;
-}
+
+
 
 form label{
 	display: block;
 	font-size: 20px;
-	margin: 8px;
+	margin: 0 0 10px 0;
 }
 
 form input{
 	display: block;
-	margin: 0% 0 20px 0;
-	padding: 8px 25px;
-	width: 30%
+	margin: 0 0 20px 0;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+textarea{
+	margin:0 0 20px 0;
 }
