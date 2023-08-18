@@ -47,7 +47,7 @@ nav a:hover{
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid #000000(0, 0, 0);
 	border-radius: 10px;
 }
 
@@ -81,14 +81,14 @@ nav a:hover{
 }
 
 footer{
-	background-color: #ccc;
+	background-color: #000000;
 	text-align: center;
 	background: url(bg.jpg);
 	padding: 40px 0;
 }
 
 footer p{
-	color: white;
+	color: rgb(0, 0, 0);
 	font-size: 12px;
 }
 
