@@ -22,7 +22,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #fafafa;
+	color: #ffffffea;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -70,7 +70,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-	border-color: #088c19;
+	border-color: #ffffff;
 }
 
 
@@ -115,7 +115,7 @@ form label{
 	margin: 0 0 10px 0;
 }
 
-form input{
+form input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
 	padding: 10px 25px;
