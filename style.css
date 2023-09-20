@@ -140,3 +140,13 @@ textarea{
 .enviar:hover{
 	background-color: #19adc9 ;
 }
+
+table{
+	background: #ccc;
+	color: #000000;
+	margin: 20px 0 40px;
+}
+td{
+	border: 1px solid black;
+	padding: 15px 10px;
+}
